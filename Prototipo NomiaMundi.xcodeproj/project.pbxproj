@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5885A31965867000589639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5885A21965867000589639 /* Foundation.framework */; };
+		AF5885A51965867000589639 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5885A41965867000589639 /* CoreGraphics.framework */; };
+		AF5885A71965867000589639 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5885A61965867000589639 /* UIKit.framework */; };
+		AF5885AD1965867000589639 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF5885AB1965867000589639 /* InfoPlist.strings */; };
+		AF5885AF1965867000589639 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5885AE1965867000589639 /* main.m */; };
+		AF5885B31965867000589639 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5885B21965867000589639 /* AppDelegate.m */; };
+		AF5885B61965867000589639 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5885B41965867000589639 /* Main_iPhone.storyboard */; };
+		AF5885B91965867000589639 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5885B71965867000589639 /* Main_iPad.storyboard */; };
+		AF5885BC1965867000589639 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5885BB1965867000589639 /* ViewController.m */; };
+		AF5885BE1965867000589639 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5885BD1965867000589639 /* Images.xcassets */; };
+		AF5885C51965867000589639 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5885C41965867000589639 /* XCTest.framework */; };
+		AF5885C61965867000589639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5885A21965867000589639 /* Foundation.framework */; };
+		AF5885C71965867000589639 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF5885A61965867000589639 /* UIKit.framework */; };
+		AF5885CF1965867000589639 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF5885CD1965867000589639 /* InfoPlist.strings */; };
+		AF5885D11965867000589639 /* Prototipo_NomiaMundiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5885D01965867000589639 /* Prototipo_NomiaMundiTests.m */; };
+		AF5885DC19658A2000589639 /* TouchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5885DB19658A2000589639 /* TouchImageView.m */; };
+		AF58874F19659A8500589639 /* Image04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF58874919659A8500589639 /* Image04.jpg */; };
+		AF58875019659A8500589639 /* Image05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF58874A19659A8500589639 /* Image05.jpg */; };
+		AF58875119659A8500589639 /* Image06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF58874B19659A8500589639 /* Image06.jpg */; };
+		AF58875419659A8500589639 /* Image09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF58874E19659A8500589639 /* Image09.jpg */; };
+		AF58875F197EFC2900589639 /* MarcaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF58875D197EFC2900589639 /* MarcaViewController.m */; };
+		AF588760197EFC2900589639 /* MarcaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF58875E197EFC2900589639 /* MarcaViewController.xib */; };
+		AFCAA69C19826C5E00BDD95F /* Tags.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFCAA69B19826C5E00BDD95F /* Tags.plist */; };
+		AFCAA6A31982781E00BDD95F /* Image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFCAA69E1982781E00BDD95F /* Image.jpg */; };
+		AFCAA6A41982781E00BDD95F /* Image02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFCAA69F1982781E00BDD95F /* Image02.jpg */; };
+		AFCAA6A51982781E00BDD95F /* Image03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFCAA6A01982781E00BDD95F /* Image03.jpg */; };
+		AFCAA6A61982781E00BDD95F /* Image07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFCAA6A11982781E00BDD95F /* Image07.jpg */; };
+		AFCAA6A71982781E00BDD95F /* Image08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFCAA6A21982781E00BDD95F /* Image08.jpg */; };
+		AFCAA6AA1982789300BDD95F /* PList.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCAA6A91982789300BDD95F /* PList.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF5885C81965867000589639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5885971965867000589639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF58859E1965867000589639;
+			remoteInfo = "Prototipo NomiaMundi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF58859F1965867000589639 /* Prototipo NomiaMundi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototipo NomiaMundi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5885A21965867000589639 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF5885A41965867000589639 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF5885A61965867000589639 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF5885AA1965867000589639 /* Prototipo NomiaMundi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prototipo NomiaMundi-Info.plist"; sourceTree = "<group>"; };
+		AF5885AC1965867000589639 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF5885AE1965867000589639 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF5885B01965867000589639 /* Prototipo NomiaMundi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prototipo NomiaMundi-Prefix.pch"; sourceTree = "<group>"; };
+		AF5885B11965867000589639 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF5885B21965867000589639 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF5885B51965867000589639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AF5885B81965867000589639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AF5885BA1965867000589639 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF5885BB1965867000589639 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF5885BD1965867000589639 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF5885C31965867000589639 /* Prototipo NomiaMundiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototipo NomiaMundiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5885C41965867000589639 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AF5885CC1965867000589639 /* Prototipo NomiaMundiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prototipo NomiaMundiTests-Info.plist"; sourceTree = "<group>"; };
+		AF5885CE1965867000589639 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF5885D01965867000589639 /* Prototipo_NomiaMundiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototipo_NomiaMundiTests.m; sourceTree = "<group>"; };
+		AF5885DA19658A2000589639 /* TouchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchImageView.h; path = "Prototipo NomiaMundi/TouchImageView.h"; sourceTree = "<group>"; };
+		AF5885DB19658A2000589639 /* TouchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchImageView.m; path = "Prototipo NomiaMundi/TouchImageView.m"; sourceTree = "<group>"; };
+		AF58874919659A8500589639 /* Image04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image04.jpg; sourceTree = "<group>"; };
+		AF58874A19659A8500589639 /* Image05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image05.jpg; sourceTree = "<group>"; };
+		AF58874B19659A8500589639 /* Image06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image06.jpg; sourceTree = "<group>"; };
+		AF58874E19659A8500589639 /* Image09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image09.jpg; sourceTree = "<group>"; };
+		AF58875C197EFC2900589639 /* MarcaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarcaViewController.h; sourceTree = "<group>"; };
+		AF58875D197EFC2900589639 /* MarcaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarcaViewController.m; sourceTree = "<group>"; };
+		AF58875E197EFC2900589639 /* MarcaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarcaViewController.xib; sourceTree = "<group>"; };
+		AFCAA69B19826C5E00BDD95F /* Tags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tags.plist; sourceTree = "<group>"; };
+		AFCAA69E1982781E00BDD95F /* Image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image.jpg; sourceTree = "<group>"; };
+		AFCAA69F1982781E00BDD95F /* Image02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image02.jpg; sourceTree = "<group>"; };
+		AFCAA6A01982781E00BDD95F /* Image03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image03.jpg; sourceTree = "<group>"; };
+		AFCAA6A11982781E00BDD95F /* Image07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image07.jpg; sourceTree = "<group>"; };
+		AFCAA6A21982781E00BDD95F /* Image08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image08.jpg; sourceTree = "<group>"; };
+		AFCAA6A81982789300BDD95F /* PList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PList.h; sourceTree = "<group>"; };
+		AFCAA6A91982789300BDD95F /* PList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PList.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF58859C1965867000589639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5885A51965867000589639 /* CoreGraphics.framework in Frameworks */,
+				AF5885A71965867000589639 /* UIKit.framework in Frameworks */,
+				AF5885A31965867000589639 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5885C01965867000589639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5885C51965867000589639 /* XCTest.framework in Frameworks */,
+				AF5885C71965867000589639 /* UIKit.framework in Frameworks */,
+				AF5885C61965867000589639 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5885961965867000589639 = {
+			isa = PBXGroup;
+			children = (
+				AF5885DD19658C0300589639 /* Resources */,
+				AF5885A81965867000589639 /* Prototipo NomiaMundi */,
+				AFCAA69D198276C600BDD95F /* Model */,
+				AF588758197EE68300589639 /* Classes */,
+				AF5885CA1965867000589639 /* Prototipo NomiaMundiTests */,
+				AF5885A11965867000589639 /* Frameworks */,
+				AF5885A01965867000589639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5885A01965867000589639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF58859F1965867000589639 /* Prototipo NomiaMundi.app */,
+				AF5885C31965867000589639 /* Prototipo NomiaMundiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5885A11965867000589639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5885A21965867000589639 /* Foundation.framework */,
+				AF5885A41965867000589639 /* CoreGraphics.framework */,
+				AF5885A61965867000589639 /* UIKit.framework */,
+				AF5885C41965867000589639 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5885A81965867000589639 /* Prototipo NomiaMundi */ = {
+			isa = PBXGroup;
+			children = (
+				AF5885B11965867000589639 /* AppDelegate.h */,
+				AF5885B21965867000589639 /* AppDelegate.m */,
+				AF5885B41965867000589639 /* Main_iPhone.storyboard */,
+				AF5885B71965867000589639 /* Main_iPad.storyboard */,
+				AF5885BA1965867000589639 /* ViewController.h */,
+				AF5885BB1965867000589639 /* ViewController.m */,
+				AF5885BD1965867000589639 /* Images.xcassets */,
+				AF5885A91965867000589639 /* Supporting Files */,
+			);
+			path = "Prototipo NomiaMundi";
+			sourceTree = "<group>";
+		};
+		AF5885A91965867000589639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5885AA1965867000589639 /* Prototipo NomiaMundi-Info.plist */,
+				AF5885AB1965867000589639 /* InfoPlist.strings */,
+				AF5885AE1965867000589639 /* main.m */,
+				AF5885B01965867000589639 /* Prototipo NomiaMundi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF5885CA1965867000589639 /* Prototipo NomiaMundiTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5885D01965867000589639 /* Prototipo_NomiaMundiTests.m */,
+				AF5885CB1965867000589639 /* Supporting Files */,
+			);
+			path = "Prototipo NomiaMundiTests";
+			sourceTree = "<group>";
+		};
+		AF5885CB1965867000589639 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF5885CC1965867000589639 /* Prototipo NomiaMundiTests-Info.plist */,
+				AF5885CD1965867000589639 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF5885DD19658C0300589639 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFCAA69E1982781E00BDD95F /* Image.jpg */,
+				AFCAA69F1982781E00BDD95F /* Image02.jpg */,
+				AFCAA6A01982781E00BDD95F /* Image03.jpg */,
+				AF58874919659A8500589639 /* Image04.jpg */,
+				AF58874A19659A8500589639 /* Image05.jpg */,
+				AF58874B19659A8500589639 /* Image06.jpg */,
+				AFCAA6A11982781E00BDD95F /* Image07.jpg */,
+				AFCAA6A21982781E00BDD95F /* Image08.jpg */,
+				AF58874E19659A8500589639 /* Image09.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF588758197EE68300589639 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF5885DA19658A2000589639 /* TouchImageView.h */,
+				AF5885DB19658A2000589639 /* TouchImageView.m */,
+				AF58875C197EFC2900589639 /* MarcaViewController.h */,
+				AF58875D197EFC2900589639 /* MarcaViewController.m */,
+				AF58875E197EFC2900589639 /* MarcaViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AFCAA69D198276C600BDD95F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFCAA6A81982789300BDD95F /* PList.h */,
+				AFCAA6A91982789300BDD95F /* PList.m */,
+				AFCAA69B19826C5E00BDD95F /* Tags.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF58859E1965867000589639 /* Prototipo NomiaMundi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5885D41965867000589639 /* Build configuration list for PBXNativeTarget "Prototipo NomiaMundi" */;
+			buildPhases = (
+				AF58859B1965867000589639 /* Sources */,
+				AF58859C1965867000589639 /* Frameworks */,
+				AF58859D1965867000589639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prototipo NomiaMundi";
+			productName = "Prototipo NomiaMundi";
+			productReference = AF58859F1965867000589639 /* Prototipo NomiaMundi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5885C21965867000589639 /* Prototipo NomiaMundiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5885D71965867000589639 /* Build configuration list for PBXNativeTarget "Prototipo NomiaMundiTests" */;
+			buildPhases = (
+				AF5885BF1965867000589639 /* Sources */,
+				AF5885C01965867000589639 /* Frameworks */,
+				AF5885C11965867000589639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5885C91965867000589639 /* PBXTargetDependency */,
+			);
+			name = "Prototipo NomiaMundiTests";
+			productName = "Prototipo NomiaMundiTests";
+			productReference = AF5885C31965867000589639 /* Prototipo NomiaMundiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5885971965867000589639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Gabriel Moraes";
+				TargetAttributes = {
+					AF5885C21965867000589639 = {
+						TestTargetID = AF58859E1965867000589639;
+					};
+				};
+			};
+			buildConfigurationList = AF58859A1965867000589639 /* Build configuration list for PBXProject "Prototipo NomiaMundi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5885961965867000589639;
+			productRefGroup = AF5885A01965867000589639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF58859E1965867000589639 /* Prototipo NomiaMundi */,
+				AF5885C21965867000589639 /* Prototipo NomiaMundiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF58859D1965867000589639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCAA6A61982781E00BDD95F /* Image07.jpg in Resources */,
+				AF5885B91965867000589639 /* Main_iPad.storyboard in Resources */,
+				AF58874F19659A8500589639 /* Image04.jpg in Resources */,
+				AF58875419659A8500589639 /* Image09.jpg in Resources */,
+				AFCAA6A51982781E00BDD95F /* Image03.jpg in Resources */,
+				AFCAA6A31982781E00BDD95F /* Image.jpg in Resources */,
+				AF58875019659A8500589639 /* Image05.jpg in Resources */,
+				AFCAA6A71982781E00BDD95F /* Image08.jpg in Resources */,
+				AF5885BE1965867000589639 /* Images.xcassets in Resources */,
+				AF5885B61965867000589639 /* Main_iPhone.storyboard in Resources */,
+				AFCAA6A41982781E00BDD95F /* Image02.jpg in Resources */,
+				AF588760197EFC2900589639 /* MarcaViewController.xib in Resources */,
+				AF5885AD1965867000589639 /* InfoPlist.strings in Resources */,
+				AF58875119659A8500589639 /* Image06.jpg in Resources */,
+				AFCAA69C19826C5E00BDD95F /* Tags.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5885C11965867000589639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5885CF1965867000589639 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF58859B1965867000589639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCAA6AA1982789300BDD95F /* PList.m in Sources */,
+				AF5885DC19658A2000589639 /* TouchImageView.m in Sources */,
+				AF5885BC1965867000589639 /* ViewController.m in Sources */,
+				AF5885B31965867000589639 /* AppDelegate.m in Sources */,
+				AF58875F197EFC2900589639 /* MarcaViewController.m in Sources */,
+				AF5885AF1965867000589639 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5885BF1965867000589639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5885D11965867000589639 /* Prototipo_NomiaMundiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5885C91965867000589639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF58859E1965867000589639 /* Prototipo NomiaMundi */;
+			targetProxy = AF5885C81965867000589639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF5885AB1965867000589639 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5885AC1965867000589639 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF5885B41965867000589639 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5885B51965867000589639 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5885B71965867000589639 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5885B81965867000589639 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5885CD1965867000589639 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5885CE1965867000589639 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5885D21965867000589639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5885D31965867000589639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5885D51965867000589639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prototipo NomiaMundi/Prototipo NomiaMundi-Prefix.pch";
+				INFOPLIST_FILE = "Prototipo NomiaMundi/Prototipo NomiaMundi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF5885D61965867000589639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prototipo NomiaMundi/Prototipo NomiaMundi-Prefix.pch";
+				INFOPLIST_FILE = "Prototipo NomiaMundi/Prototipo NomiaMundi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AF5885D81965867000589639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Prototipo NomiaMundi.app/Prototipo NomiaMundi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prototipo NomiaMundi/Prototipo NomiaMundi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Prototipo NomiaMundiTests/Prototipo NomiaMundiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AF5885D91965867000589639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Prototipo NomiaMundi.app/Prototipo NomiaMundi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prototipo NomiaMundi/Prototipo NomiaMundi-Prefix.pch";
+				INFOPLIST_FILE = "Prototipo NomiaMundiTests/Prototipo NomiaMundiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF58859A1965867000589639 /* Build configuration list for PBXProject "Prototipo NomiaMundi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5885D21965867000589639 /* Debug */,
+				AF5885D31965867000589639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5885D41965867000589639 /* Build configuration list for PBXNativeTarget "Prototipo NomiaMundi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5885D51965867000589639 /* Debug */,
+				AF5885D61965867000589639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5885D71965867000589639 /* Build configuration list for PBXNativeTarget "Prototipo NomiaMundiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5885D81965867000589639 /* Debug */,
+				AF5885D91965867000589639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5885971965867000589639 /* Project object */;
+}
