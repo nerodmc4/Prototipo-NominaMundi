@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "PList.h"
 
+@class TouchImageView;
+
 @interface MarcaViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *label01;
@@ -24,6 +26,8 @@
 - (IBAction)voltar:(id)sender;
 
 - (IBAction)BackgroundTap:(id)sender;
+
+- (void)setTIV:(TouchImageView*)tiv;
 
 @end
 

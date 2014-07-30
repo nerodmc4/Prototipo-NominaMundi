@@ -14,6 +14,9 @@
 	BOOL Full;
 }
 
+@property NSMutableArray *tags01;
+@property NSMutableArray *tags02;
+
 + (TouchImageView *)sharedTIV;
 - (UIImageView *)internal;
 - (void)Cheio;

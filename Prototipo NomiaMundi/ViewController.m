@@ -14,6 +14,7 @@
 @interface ViewController ()
 {
     NSMutableArray* imagens;
+    TouchImageView *VouUsar;
 }
 @end
 
@@ -22,6 +23,7 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
+    VouUsar = [[TouchImageView alloc] init];
 	int rows = 3, columns = 3, images = 0;
 	CGSize blockSize = CGSizeMake(self.view.frame.size.width / columns,
 								  self.view.frame.size.height / rows);
@@ -57,11 +59,6 @@
     UILongPressGestureRecognizer *lpGR = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(lp:)];
     [self.view addGestureRecognizer:lpGR];
     
-//    for (int z = 0; z < 9; z++) {
-//        if (imagens[z]) {
-//            <#statements#>
-//        }
-//    }
     
 }
 
@@ -79,7 +76,9 @@
 {
     for (TouchImageView *t in imagens) {
         if ([t GetFull] == YES) {
+            VouUsar = t;
             MarcaViewController *marca = [[MarcaViewController alloc] init];
+            [marca setTIV:t];
             [self presentViewController: marca animated:YES completion:nil];
         }
     }

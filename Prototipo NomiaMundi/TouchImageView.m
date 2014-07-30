@@ -18,6 +18,12 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        _tags01 = [[NSMutableArray alloc] init];
+        _tags02 = [[NSMutableArray alloc] init];
+        
+        [_tags01 addObject:@"Editável"];
+        [_tags02 addObject:@"Editável"];
+        
         internal = [[UIImageView alloc] initWithFrame:self.bounds];
 		[internal setBackgroundColor:[UIColor blackColor]];
 		[internal setContentMode:UIViewContentModeScaleAspectFit];

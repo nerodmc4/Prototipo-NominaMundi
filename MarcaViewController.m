@@ -7,9 +7,12 @@
 //
 
 #import "MarcaViewController.h"
+#import "TouchImageView.h"
 
 @interface MarcaViewController ()
-
+{
+    TouchImageView *touch;
+}
 @end
 
 @implementation MarcaViewController
@@ -22,6 +25,11 @@
         [[PList save] carregando];
     }
     return self;
+}
+
+- (void)setTIV:(TouchImageView*)tiv
+{
+    touch = tiv;
 }
 
 - (void)viewDidLoad
@@ -41,8 +49,24 @@
 
 - (void)viewDidAppear:(BOOL)animated {
 
-    [[self label01] setText:[[PList save] label01]];
-    [[self label02] setText:[[PList save] label02]];
+    int x, y;
+    //[[self label01] setText:[[PList save] label01]];
+    //[[self label02] setText:[[PList save] label02]];
+    
+    if ([[touch tags01] count] > 0) {
+        x = [[touch tags01] count] - 1;
+    } else {
+        x = 0;
+    }
+    
+    if ([[touch tags02] count] > 0) {
+        y = [[touch tags02] count] - 1;
+    } else {
+        y = 0;
+    }
+    
+    [[self label01] setText:[NSString stringWithFormat:@"%@", [touch.tags01 objectAtIndex:x]]];
+    [[self label02] setText:[NSString stringWithFormat:@"%@", [touch.tags02 objectAtIndex:y]]];
     
 }
 
@@ -53,8 +77,11 @@
     label01.text = lingua01;
     label02.text = lingua02;
     
-    [[PList save] setLabel01:[[self texto01] text]];
-    [[PList save] setLabel02:[[self texto02] text]];
+    [[touch tags01] addObject:lingua01];
+    [[touch tags02] addObject:lingua02];
+    
+//    [[PList save] setLabel01:[[self texto01] text]];
+//    [[PList save] setLabel02:[[self texto02] text]];
     
     [[PList save] salvando];
 }
